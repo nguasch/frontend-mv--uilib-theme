@@ -14,7 +14,8 @@
     "prelib": "npm run clean:lib -s",
     "prepublish": "npm run lib",
     "release": "sui-mono release",
-    "release:check": "sui-mono check"
+    "release:check": "sui-mono check",
+    "test": "echo no test found"
   },
   "author": "",
   "license": "ISC",
@@ -32,6 +33,7 @@
     "@s-ui/mono": "^2.18.0",
     "@s-ui/precommit": "^2.14.0",
     "cpx": "^1.5.0",
+    "husky": "4.3.0",
     "rimraf": "^3.0.2",
     "validate-commit-msg": "^2.14.0"
   },
